@@ -2,7 +2,7 @@
   (:require [kotoba.lang.text] ["fs" :as fs]
             ["os" :as os]
             ["path" :as path]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [loop-jiten.core :as lj]))
 
 (defn- tmpdir []
